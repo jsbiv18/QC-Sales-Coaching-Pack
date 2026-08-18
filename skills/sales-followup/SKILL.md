@@ -17,7 +17,7 @@ Reads `docs/qc-sales/sales-brief.md` and, if present, the output of `sales-call-
 
 ## How to run this (for the agent)
 
-1. Read the brief and any call-review output.
+1. Read the brief and any call-review output if they exist. Do not require them. If there is no `docs/qc-sales/sales-brief.md` yet (for example this skill is being run on its own, before `00-sales-setup`), do not stop or ask the founder to go create one. Just ask for the couple of things you need inline (product, the prospect, and what happened on the call) and continue. This pack works on its own.
 2. Ask for context if not known: what the prospect said the problem was (their words), what was agreed, and whether a next step was set.
 3. Write the follow-up in the structure below. Use their language, not marketing language. Short. A founder wrote this, not a sequencer.
 4. If there was no clear next step, the follow-up's whole job is to set one. Propose a specific time and action.

@@ -2,6 +2,13 @@
 
 All notable changes to the QC Sales Coaching Pack. One person at QC owns this file and a quarterly refresh. A stale pack is worse than no pack.
 
+## [0.2.1] · 2026-08-18
+
+Standalone robustness.
+
+- Every coaching skill now degrades gracefully when `docs/qc-sales/sales-brief.md` does not exist. Running a single skill on its own (before `00-sales-setup`) no longer blocks; the skill asks for the context it needs inline and continues. Fixes a tester hitting "I don't have a sales-brief" when testing a skill directly.
+- README notes that no setup is required to test a single skill.
+
 ## [0.2.0] · 2026-08-13
 
 Added the CRM adapter.

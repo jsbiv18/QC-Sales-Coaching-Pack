@@ -61,6 +61,8 @@ In the founder's AI coding agent, tell it:
 
 If the agent can't fetch a repo from a link, clone it first, then give it the same instruction. For Claude Code, the skills live in `~/.claude/skills/`; copy the folders from `skills/` there. For the Claude apps, upload each skill folder under **Customize → Skills**. In a plain chat tool (ChatGPT, Claude), open a skill, paste the text, and say "apply this to my product."
 
+**Testing a single skill on its own?** You don't need to run `00-sales-setup` first. Every skill reads `docs/qc-sales/sales-brief.md` if it exists, but works fine without it and will just ask you what it needs. If your agent complains it can't find that file, tell it to skip it and continue. Running `00-sales-setup` first just makes the coaching more specific.
+
 ---
 
 ## How QC uses this (internal)
