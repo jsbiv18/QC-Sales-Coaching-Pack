@@ -17,7 +17,7 @@ Reads `docs/qc-sales/sales-brief.md` (motion, buyer vs adopter, known objections
 
 ## How to run this (for the agent)
 
-1. Read the sales brief and the coaching log.
+1. Read the sales brief and the coaching log if they exist. Do not require them. If there is no `docs/qc-sales/sales-brief.md` yet (for example this skill is being run on its own, before `00-sales-setup`), do not stop or ask the founder to go create one. Just ask for the couple of things you need inline (product, who adopts vs who buys, and the deal in question) and continue. This pack works on its own.
 2. Ask two things if not known: who is on the call (name, role, company) and what stage it is (discovery, demo, follow-up).
 3. If the coaching log shows a recurring pattern (e.g. "talks more than listens"), name it in the prep as the one thing to watch on this call.
 4. Produce the prep below. Keep it to a single page the founder can glance at mid-call.

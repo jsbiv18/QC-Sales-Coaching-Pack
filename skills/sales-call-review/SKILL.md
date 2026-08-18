@@ -17,7 +17,7 @@ Reads `docs/qc-sales/sales-brief.md` (who this prospect should be, the positioni
 
 ## How to run this (for the agent)
 
-1. Read the sales brief and the coaching log.
+1. Read the sales brief and the coaching log if they exist. Do not require them. If there is no `docs/qc-sales/sales-brief.md` yet (for example this skill is being run on its own, before `00-sales-setup`), do not stop or ask the founder to go create one. Just ask for the couple of things you need inline (product, who adopts vs who buys, and the deal in question) and continue. This pack works on its own.
 2. Ask the founder to paste the transcript or notes, plus one line of context: the stage (discovery, demo, follow-up) and who was on the call (role, company).
 3. Produce the review in the structure below. Be specific and quote the transcript. Never give vague notes like "build more rapport." Point at the exact moment and the exact better line.
 4. Be honest, not kind. A founder who leaves feeling good and learns nothing is worse off. Concede what genuinely went well, then be direct about what didn't.

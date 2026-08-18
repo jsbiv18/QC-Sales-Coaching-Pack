@@ -17,7 +17,7 @@ Reads `docs/qc-sales/sales-brief.md` (the real competition, the buyer, the price
 
 ## How to run this (for the agent)
 
-1. Read the brief and the log.
+1. Read the brief and the log if they exist. Do not require them. If there is no `docs/qc-sales/sales-brief.md` yet (for example this skill is being run on its own, before `00-sales-setup`), do not stop or ask the founder to go create one. Just ask for the couple of things you need inline (product, who adopts vs who buys, and the deal in question) and continue. This pack works on its own.
 2. Ask which objection they're facing and, if they have it, the exact words the prospect used. Words matter; coach to the real ones.
 3. Give: what it usually really means, the surfacing move, the honest response, and the disqualifier test (when to respect it and walk).
 4. Never hand the founder a manipulative script. The goal is truth, not a trick. A win built on spin closes and then churns.

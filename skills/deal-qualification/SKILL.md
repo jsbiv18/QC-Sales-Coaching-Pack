@@ -23,7 +23,7 @@ Reads and updates the **Live deals** table in `docs/qc-sales/sales-brief.md`.
 
 ## How to run this (for the agent)
 
-1. Read the sales brief, especially the live-deals table and the ICP.
+1. Read the sales brief, especially the live-deals table and the ICP, if it exists. Do not require it. If there is no `docs/qc-sales/sales-brief.md` yet (for example this skill is being run on its own, before `00-sales-setup`), do not stop or ask the founder to go create one. Just ask the founder to list their live deals inline and continue. This pack works on its own.
 2. For each deal, ask the founder what they know against the four (pain, power, urgency, next step). Don't accept vibes; ask for the evidence ("what did they actually say?").
 3. Score each deal real / maybe / dead using the rule below, and name the single gap and the single next move.
 4. Be honest. The founder's optimism is the enemy here. A deal with no power and no next step is dead even if the last call was lovely.
